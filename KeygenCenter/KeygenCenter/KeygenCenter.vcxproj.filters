@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Seal">
+      <UniqueIdentifier>{0d33e5d0-aa91-4de3-9e72-92ee085ac8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Seal\util">
+      <UniqueIdentifier>{e9037c4d-8c59-4884-ac41-0d69010a55c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\batchencoder.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\biguint.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\ciphertext.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\ckks.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\context.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\decryptor.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\defaultparams.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\encryptionparams.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\encryptor.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\evaluator.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\galoiskeys.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\intarray.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\intencoder.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\keygenerator.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\memorymanager.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\plaintext.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\publickey.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\randomgen.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\randomtostd.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\relinkeys.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\seal.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\secretkey.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\smallmodulus.h">
+      <Filter>Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\aes.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\baseconverter.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\clang.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\clipnormal.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\common.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\config.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\defines.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\gcc.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\globals.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\hash.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\hestdparms.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\locks.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\mempool.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\msvc.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\numth.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\pointer.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\polyarith.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\polyarithmod.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\polyarithsmallmod.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\polycore.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\smallntt.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\uintarith.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\uintarithmod.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\uintarithsmallmod.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="seal\util\uintcore.h">
+      <Filter>Seal\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KeygenCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\batchencoder.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\biguint.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\ciphertext.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\ckks.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\context.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\decryptor.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\encryptionparams.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\encryptor.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\evaluator.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\galoiskeys.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\intencoder.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\keygenerator.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\memorymanager.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\plaintext.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\randomgen.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\relinkeys.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\smallmodulus.cpp">
+      <Filter>Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\aes.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\baseconverter.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\clipnormal.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\globals.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\hash.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\mempool.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\numth.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\polyarith.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\polyarithmod.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\polyarithsmallmod.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\smallntt.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\uintarith.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\uintarithmod.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\uintarithsmallmod.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="seal\util\uintcore.cpp">
+      <Filter>Seal\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="seal\CMakeLists.txt">
+      <Filter>Seal</Filter>
+    </Text>
+    <Text Include="seal\util\CMakeLists.txt">
+      <Filter>Seal\util</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="seal\util\config.h.in">
+      <Filter>Seal\util</Filter>
+    </None>
+  </ItemGroup>
+</Project>
